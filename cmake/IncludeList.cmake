@@ -4,6 +4,16 @@ set(INCLUDE_LIST ${INCLUDE_LIST}
         ${PROJECT_PATH}/STM32-base-STM32Cube/CMSIS/ARM/inc
         ${PROJECT_PATH}/STM32-base-STM32Cube/CMSIS/${SERIES_FOLDER}/inc
         ${PROJECT_PATH}/include
+        ${PROJECT_PATH}/Lib
+        ${PROJECT_PATH}/Gpio
+        ${PROJECT_PATH}/Rcc
+        ${PROJECT_PATH}/Adc
+        ${PROJECT_PATH}/Exti
+        ${PROJECT_PATH}/Usart
+        ${PROJECT_PATH}/Pwm
+        ${PROJECT_PATH}/Timer
+        ${PROJECT_PATH}/Nvic
+        ${PROJECT_PATH}/RingBuffer
 )
 
 if (USE_HAL)
